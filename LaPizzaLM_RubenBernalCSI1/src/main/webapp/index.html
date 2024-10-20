@@ -1,0 +1,65 @@
+<!-- Rubén Bernal Ramos, CSI1 -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza CSI+DMJ</title>
+</head>
+<body>
+
+    <h1>Pizza CSI+DMJ</h1>
+
+    <form action="#" method="post">
+        <!-- Detalles del producto -->
+        <fieldset>
+            <legend>Detalles del producto</legend>
+            <table border="1">
+				<thead>
+					<th colspan="2">Complementos</th>
+					<th>Tamaño*</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<input type="checkbox">Extra de queso
+							<br>
+							<input type="checkbox">Cebolla
+						</td>
+						<td>
+							<input type="checkbox">Piña
+						</td>
+						<td>
+							<input type="radio" required>Normal
+							<br>
+							<input type="radio">XL
+							<br>
+							<input type="radio">XXL
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </fieldset>
+
+        <!-- Detalles del envío -->
+        <fieldset>
+            <legend>Detalles del envío</legend>
+            <label>Nombre*</label>
+            <input type="text" required>
+			<br>
+            <label>Teléfono</label>
+            <input type="text">
+			<br>
+            <label>Correo*</label>
+            <input type="email" required>
+			<br>
+            <label>Dirección*</label>
+            <textarea required></textarea>
+        </fieldset>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+
+</body>
+</html>
